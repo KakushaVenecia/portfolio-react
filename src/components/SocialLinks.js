@@ -1,6 +1,6 @@
 import React from 'react';
 import './SocialLinks.css';
-import { FaLinkedin, FaGithub, FaWordpress } from 'react-icons/fa'; // Using react-icons for icons
+import { FaLinkedin, FaGithub, FaWordpress } from 'react-icons/fa'; 
 
 function SocialLinks() {
     return (
