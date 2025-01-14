@@ -1,0 +1,18 @@
+.social-links {
+    display: flex;
+    gap: 35px; /* Space between icons */
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-link {
+    color: lightblue; /* Default icon color */
+    font-size: 24px; /* Size of the icons */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #E2B564; 
+}

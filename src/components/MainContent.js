@@ -3,6 +3,7 @@ import React from 'react';
 import HeroSection from './HeroSection';
 import Tabs from './Tabs';
 import ContactForm from './ContactForm';
+import SocialLinks from './SocialLinks';
 
 
 function MainContent() {
@@ -11,6 +12,7 @@ function MainContent() {
     <HeroSection />
       <Tabs />
       <ContactForm />
+      <SocialLinks />
     </main>
   );
 }
