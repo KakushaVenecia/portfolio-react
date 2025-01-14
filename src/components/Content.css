@@ -1,0 +1,93 @@
+
+/* Content container styling */
+.content {
+    display: flex;
+    align-items: left; /* Centering content vertically */
+    justify-content: center; /* Centering content horizontally */
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    position: relative;
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    min-height: 400px; 
+}
+
+/* Header styling */
+.content h1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 28px; /* Slightly smaller font size */
+    font-family: 'Montserrat', sans-serif;
+    color: #E2B564;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+/* Styling for text inside h1 */
+h1 div {
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+/* Paragraph styling */
+.p {
+    color: #ffffff;
+    font-size: 16px; /* Adjust font size for better readability */
+    line-height: 1.5; /* More comfortable line spacing */
+    text-align: center; /* Center-align text */
+    margin-top: 20px; /* Add space above the paragraph */
+    max-width: 80%; /* Limit the width to avoid stretching */
+}
+
+/* Bold text styling */
+.content-inner-bold {
+    color: #E2B564 !important;
+    font-weight: bold;
+}
+
+/* For the typing animation and preventing overflow */
+.typing-text {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    width: 0;
+    animation: typing 3s steps(40) 1s forwards, blink 0.75s step-end infinite;
+}
+
+/* Typing effect animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Blinking cursor for the typing effect */
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content {
+        padding: 20px;
+        min-height: 350px;
+    }
+
+    .content h1 {
+        font-size: 24px; /* Smaller font size on smaller screens */
+    }
+
+    .p {
+        font-size: 14px; /* Adjust paragraph font size */
+    }
+}

@@ -1,0 +1,29 @@
+/* Header container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
+
+/* Logo container */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo image */
+.logo-image {
+    width: 140px;  /* Adjust the size of the logo image */
+    height: 140px; /* Adjust the size of the logo image */
+    margin-right: 10px;  /* Space between logo and name */
+}
+
+/* Name text */
+.name {
+    font-size: 27px;
+    font-weight: bold;
+    color: #E2B564;
+}

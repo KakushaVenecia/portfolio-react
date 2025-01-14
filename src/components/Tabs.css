@@ -1,0 +1,136 @@
+.tabs-container {
+  height: auto;
+ }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .tabs button {
+    padding: 10px 15px;
+    border: none;
+    background: #E2B564;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+  }
+  
+  .tabs button:hover {
+    background: #e0e0e0;
+  }
+  
+  .tabs button.active {
+    border-bottom: 2px solid #ffffff;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .tab-content {
+    padding: 15px;
+    /* border: 1px solid #ddd; */
+    background: inherit;
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* Tech Stack Styles *//* Tech Stack Styles */
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    gap: 10px; /* Add spacing between images */
+    width: 80%; /* Make the container 80% of the available width */
+    margin: auto; /* Center the container */
+    justify-content: center;
+  }
+  
+  .tech-stack img {
+    width: 100px; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  /* Timeline Styles */
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    tab-size: 15px;
+    align-items:left;
+    tab-size: 30px;
+    gap: 20px;
+  }
+  .timeline-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border-left: 4px solid #E2B564;
+    margin-left: 10px;
+    position: relative;
+  }
+  .timeline-item::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #E2B564;
+    border-radius: 50%;
+    position: absolute;
+    left: -7px;
+    top: 15px;
+  }
+  .timeline-content h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #E2B564;
+    text-align: left;
+  }
+  .timeline-content p {
+    margin: 5px 0 0;
+    font-size: 18px;
+    color: #f0f0f0;
+  }
+  
+  /* Grid Gallery Styles */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .grid-item {
+    text-align: center;
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .grid-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .project-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .project-description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+    line-height: 1.5;
+    text-decoration: none!important;
+  }
