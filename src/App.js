@@ -10,7 +10,7 @@ function App() {
       <MainContent />
       
       <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} Venecia Kakusha. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Venecia Kakusha. All Rights Reserved.</p>
       </footer>
     </div>
   );
