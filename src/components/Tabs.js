@@ -83,7 +83,7 @@ const Tabs = () => {
         </div>
             <div className="grid-item">
             <a 
-            href="https://frontend-d5bn.onrender.com/" 
+            href="https://kakushavenecia.github.io/ip-two/" 
             target="_blank" 
             rel="noopener noreferrer"
             >
