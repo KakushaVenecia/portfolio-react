@@ -80,15 +80,24 @@ const Tabs = () => {
             <p>
               Technologies Used: React, MongoDB 
             </p>
-           
         </div>
             <div className="grid-item">
-                <img src="./images/Water_quality.png" alt="Project 2" />
-                <p className="project-title">Project 2</p>
+            <a 
+            href="https://frontend-d5bn.onrender.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+            <img src="./images/Akan-Name.png" alt="Project 1" />
+            <p className="project-title">Akan Name</p>
+            </a>
                 <p className="project-description">
-                A machine learning model developed to predict water quality based on
-                various environmental factors and historical data.
+                The Akan Name Generator is an interactive web-based tool
+                 designed to provide users with an immersive cultural experience
+                  by introducing them to the rich traditions of the Akan people of Ghana. 
                 </p>
+                <p>
+              Technologies Used: Javascript 
+            </p>
             </div>
             <div className="grid-item">
                 <img src="./images/Water_quality.png" alt="Project 3" />
