@@ -1,29 +1,94 @@
-/* Header container */
+/* General styles for header container */
 .header {
+    position: relative;
+    margin: auto;
+    width: 95%;
+    color: white;
+    margin-top: 28px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #000000;
-    color: white;
+    border-bottom: 1px solid #E2B564; /* Optional border for separation */
+    padding: 7px;
 }
 
-/* Logo container */
-.logo {
+  
+
+/* Logo section */
+.logo-image {
+    width: 100px;  /* Profile picture size */
+    height: 100px; /* Profile picture size */
+    border-radius: 50%; /* Circular image */
+    border: 1px solid #E2B564; /* Optional border */
+}
+
+/* Details section */
+.details {
+    display: flex;
+    flex-direction: column; /* Stack the name and location vertically */
+    justify-content: center; /* Center the details vertically */
+}
+
+/* Name styles */
+.name {
+    font-size: 14px; 
+    font-weight: bold;
+    color: #E2B564; /* Gold accent color for the name */
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+/* Location styles */
+.location {
+    font-size: 12px; /* Slightly smaller for the location */
     display: flex;
     align-items: center;
 }
 
-/* Logo image */
-.logo-image {
-    width: 140px;  /* Adjust the size of the logo image */
-    height: 140px; /* Adjust the size of the logo image */
-    margin-right: 10px;  /* Space between logo and name */
+/* Icon styles */
+.icon {
+    margin-right: 5px; /* Space between icon and text */
+    color: #E2B564; /* Match icon color with the name */
 }
 
-/* Name text */
-.name {
-    font-size: 27px;
-    font-weight: bold;
-    color: #E2B564;
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack image and details vertically */
+        text-align: center;
+        padding: 15px;
+    }
+
+    .logo-image {
+        width: 80px; /* Reduce profile picture size */
+        height: 80px;
+    }
+
+    .name {
+        font-size: 20px; /* Adjust name size */
+    }
+
+    .location {
+        font-size: 16px; /* Adjust location size */
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .logo-image {
+        width: 60px; /* Further reduce profile picture size */
+        height: 60px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .location {
+        font-size: 14px;
+    }
 }

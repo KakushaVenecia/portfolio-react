@@ -1,0 +1,22 @@
+/* Ticker container styles */
+.ticker-container {
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    overflow: hidden; /* Hide overflow for the scrolling effect */
+    white-space: nowrap;
+    position: fixed; /* Sticks to the top */
+    top: 0;
+    z-index: 1000;
+    padding: 5px 0;
+    box-shadow:  #E2B564;
+  }
+  
+  /* Ticker content styles */
+  .ticker-content {
+    display: inline-block;
+    white-space: nowrap; /* Prevent line breaks */
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

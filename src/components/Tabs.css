@@ -35,22 +35,22 @@
     margin: auto;
   }
   
-  /* Tech Stack Styles *//* Tech Stack Styles */
-.tech-stack {
+  /* Tech Stack Styles */
+
+  .tech-stack {
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping to the next line */
-    gap: 10px; /* Add spacing between images */
-    width: 80%; /* Make the container 80% of the available width */
-    margin: auto; /* Center the container */
-    justify-content: center;
+    flex-wrap: wrap; /* Wraps the badges to the next line if they don't fit */
+    justify-content: center; /* Centers the badges horizontally */
+    gap: 10px; /* Adds space between badges */
+    margin: 20px 0; /* Top and bottom spacing for the container */
+    padding: 5px;
+    border-radius: 8px; /* Smooth rounded corners */
   }
   
   .tech-stack img {
-    width: 100px; /* Set a fixed width for images */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 30px; /* Adjusts the badge height */
   }
+  
   
   
   /* Timeline Styles */
@@ -129,7 +129,7 @@
   
   .project-description {
     font-size: 14px;
-    color: #555;
+    color: #000000;
     margin-top: 8px;
     line-height: 1.5;
     text-decoration: none!important;

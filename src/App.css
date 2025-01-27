@@ -11,13 +11,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  
 }
 
-.header {
-  background-color: #000000;
-  color: white;
-  padding: 20px;
-}
 
 .header h1 {
   margin: 0;
@@ -46,9 +42,11 @@ body {
 }
 
 /* Footer */
-.footer {
+footer {
+  z-index: 1000;
+  text-align: center;
   background-color: #000000;
-  color: white;
+  color: white!important;
   padding: 10px 0;
   font-size: 0.9rem; 
 }
@@ -59,7 +57,7 @@ body {
 /* Main Content Section */
 .main-content {
   flex: 1;
-  padding: 20px;
+  padding: 2px;
   display: flex;
   flex-direction: column;
   margin: 20px;

@@ -1,15 +1,19 @@
 /* Hero Section Layout */
 .hero-section {
     text-align: center;
-    padding: 20px;
+    padding: 2px;
     margin:auto;/* Optional, to space it out from the top */
-    width: 90%; /* Make sure the hero section takes up full width */
+    width: 95%; /* Make sure the hero section takes up full width */
     margin-bottom: 10px;
   }
 
   .hero-left{
-    text-align: left!important;
+    text-align: justify!important;
     font-size: larger;
+  }
+
+  h6{
+    text-align: center;
   }
   
   .hero-quote {

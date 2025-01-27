@@ -10,23 +10,47 @@ const Tabs = () => {
       case "techStack":
         return (
           <div className="tech-stack">
-            <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="Tech 1" />
-            <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Tech 2" />
-            <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Tech 3" />
-            <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt=""/>
-            <img src="https://img.shields.io/badge/typescript-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=%23F7DF1E" alt=""/>
-            <img src="https://img.shields.io/badge/angular-%23007ACC.svg?style=for-the-badge&logo=Angular&logoColor=red" alt=""/>
-            <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt=""/>
-            <img src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray" alt=""/>
-            <img src="https://img.shields.io/badge/flask-%23092E20.svg?style=for-the-badge&logo=flask&logoColor=white" alt=""/>
-            <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt=""/>
-            <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt=""/>
-            <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt=""/>
-            <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt=""/>
-            <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt=""/>
-            <img src="https://img.shields.io/badge/java-%23316192.svg?style=for-the-badge&logo=java&logoColor=white" alt=""/>
-            <img src="https://img.shields.io/badge/react-%2300f.svg?style=for-the-badge&logo=react&logoColor=white" alt=""/>
-          </div>
+      <img
+        src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
+        alt="CSS3"
+      />
+      <img
+        src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+        alt="JavaScript"
+      />
+      <img
+        src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
+        alt="Bootstrap"
+      />
+      <img
+        src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+        alt="Python"
+      />
+      <img
+        src="https://img.shields.io/badge/typescript-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=%23F7DF1E"
+        alt="TypeScript"
+      />
+      <img
+        src="https://img.shields.io/badge/angular-%23007ACC.svg?style=for-the-badge&logo=angular&logoColor=red"
+        alt="Angular"
+      />
+      <img
+        src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white"
+        alt="Django"
+      />
+      <img
+        src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray"
+        alt="Django REST"
+      />
+      <img
+        src="https://img.shields.io/badge/flask-%23092E20.svg?style=for-the-badge&logo=flask&logoColor=white"
+        alt="Flask"
+      />
+      <img
+        src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white"
+        alt="Express.js"
+      />
+    </div>
         );
       case "workExperience":
         return (
@@ -72,13 +96,13 @@ const Tabs = () => {
             rel="noopener noreferrer"
             >
             <img src="./images/Water_quality.png" alt="Project 1" />
-            <p className="project-title">Project 1</p>
+            <p className="project-title">Water Quality Web App</p>
             </a>
             <p className="project-description">
-                This project focuses on analyzing water quality using real-time data collection and providing insights for environmental monitoring.
+                This is a web-based geospatial project that focuses on analysing water quality using real-time data collection and providing insights for environmental monitoring.
             </p>
             <p>
-              Technologies Used: React, MongoDB 
+              Technologies Used: React, MongoDB, Mapbox
             </p>
         </div>
             <div className="grid-item">
