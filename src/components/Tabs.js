@@ -52,40 +52,40 @@ const Tabs = () => {
       />
     </div>
         );
-      case "workExperience":
-        return (
+      // case "workExperience":
+      //   return (
           
-          <div className="timeline">
-            <div className="timeline-item">
-              <div className="timeline-content">
-                <h3>Sept 2024 - Present</h3>
-                <p>Office Assistant - Centre for Women's Justice</p>
-              </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-content">
-                <h3> Oct 2023 - Present</h3>
-                <p>Merchandise Assistant - National Merchandise </p>
-              </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-content">
-                <h3> Feb 2022 - September 2023</h3>
-                <p>Executive  Assistant-JKUAT Enterprises</p>
-              </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-content">
-                <h3> Mar 2019 - August 2021 </h3>
-                <p>Customer Care / Marketing Coordinator / Business Development Manager - bik Investors , mTek Services</p>
-              </div>
-            </div>
-           <div className="request">
+      //     <div className="timeline">
+      //       <div className="timeline-item">
+      //         <div className="timeline-content">
+      //           <h3>Sept 2024 - Present</h3>
+      //           <p>Office Assistant - Centre for Women's Justice</p>
+      //         </div>
+      //       </div>
+      //       <div className="timeline-item">
+      //         <div className="timeline-content">
+      //           <h3> Oct 2023 - Present</h3>
+      //           <p>Merchandise Assistant - National Merchandise </p>
+      //         </div>
+      //       </div>
+      //       <div className="timeline-item">
+      //         <div className="timeline-content">
+      //           <h3> Feb 2022 - September 2023</h3>
+      //           <p>Executive  Assistant-JKUAT Enterprises</p>
+      //         </div>
+      //       </div>
+      //       <div className="timeline-item">
+      //         <div className="timeline-content">
+      //           <h3> Mar 2019 - August 2021 </h3>
+      //           <p>Customer Care / Marketing Coordinator / Business Development Manager - bik Investors , mTek Services</p>
+      //         </div>
+      //       </div>
+      //      <div className="request">
             
-           </div>
+      //      </div>
           
-          </div>
-        );
+      //     </div>
+      //   );
       case "projects":
         return (
             <div className="grid-gallery">
@@ -160,12 +160,12 @@ const Tabs = () => {
         >
           Tech Stack
         </button>
-        <button
+        {/* <button
           className={activeTab === "workExperience" ? "active" : ""}
           onClick={() => setActiveTab("workExperience")}
         >
           Work Experience
-        </button>
+        </button> */}
         <button
           className={activeTab === "projects" ? "active" : ""}
           onClick={() => setActiveTab("projects")}
