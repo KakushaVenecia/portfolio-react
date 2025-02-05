@@ -144,7 +144,7 @@ const Tabs = () => {
             </div>
             <div className="grid-item">
             <a 
-           href=" https://bejewelled-salamander-5f7a86.netlify.app/ "
+           href="https://jirani-e69819ead4ec.herokuapp.com/"
             target="_blank" 
             rel="noopener noreferrer"
             >
