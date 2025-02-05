@@ -124,16 +124,42 @@ const Tabs = () => {
             </p>
             </div>
             <div className="grid-item">
-                <img src="./images/Water_quality.png" alt="Project 3" />
-                <p className="project-title">Project 3</p>
-                <p className="project-description">
-                This interactive platform allows users to explore water quality data
-               
+            <a 
+           href=" https://bejewelled-salamander-5f7a86.netlify.app/ "
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+           <img src="./images/codehack.png" alt="Project 3" />
+           <p className="project-title">Moringa Codehack</p>
+            </a>
+            <p className="project-description">
+                MoringaCodehack is a frontend 
+                application that is part of a collaborative group project
+                 designed to create a HackerRank-type platform, where users can solve coding challenges.
+                 Worked in a team of 2 front end developers, collaborating on both frontend and backend integration.
                 </p>
+                <p>
+              Technologies Used: Angular, TypeScript
+            </p>
             </div>
             <div className="grid-item">
-                <img src="./images/Water_quality.png" alt="Project 3" />
-                <p>Project 4</p>
+            <a 
+           href=" https://bejewelled-salamander-5f7a86.netlify.app/ "
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+           <img src="./images/image.png" alt="Project 4" />
+           <p className="project-title">Jirani Corner
+           </p>
+            </a>
+            <p className="project-description">
+            Jirani Corner is an application which allows you to be in the loop about everything happening in your neighborhood. Join and 
+            get information from fellow hoodmates on events,
+             posts, businesses in your neighborhood.
+                </p>
+                <p>
+              Technologies Used: Python-Django, Postgresql
+            </p>
             </div>
             <div className="grid-item">
                 <img src="./images/Water_quality.png" alt="Project 3" />
