@@ -52,40 +52,41 @@ const Tabs = () => {
       />
     </div>
         );
-      // case "workExperience":
-      //   return (
+      case "education":
+        return (
           
-      //     <div className="timeline">
-      //       <div className="timeline-item">
-      //         <div className="timeline-content">
-      //           <h3>Sept 2024 - Present</h3>
-      //           <p>Office Assistant - Centre for Women's Justice</p>
-      //         </div>
-      //       </div>
-      //       <div className="timeline-item">
-      //         <div className="timeline-content">
-      //           <h3> Oct 2023 - Present</h3>
-      //           <p>Merchandise Assistant - National Merchandise </p>
-      //         </div>
-      //       </div>
-      //       <div className="timeline-item">
-      //         <div className="timeline-content">
-      //           <h3> Feb 2022 - September 2023</h3>
-      //           <p>Executive  Assistant-JKUAT Enterprises</p>
-      //         </div>
-      //       </div>
-      //       <div className="timeline-item">
-      //         <div className="timeline-content">
-      //           <h3> Mar 2019 - August 2021 </h3>
-      //           <p>Customer Care / Marketing Coordinator / Business Development Manager - bik Investors , mTek Services</p>
-      //         </div>
-      //       </div>
-      //      <div className="request">
+          <div className="timeline">
+            <div className="timeline-item">
+              <div className="timeline-content">
+                <h3>Sept 2023 - Sept 2024</h3>
+                <p>Msc Computer Science - Aston University</p>
+              </div>
+            </div>
+             <div className="timeline-item">
+                <div className="timeline-content">
+                    <h3> Sept 2022 - Jan 2023</h3>
+                     <p>Intermediate Software Engineer- Stutern  </p>
+                   </div>
+               </div>
+            <div className="timeline-item">
+              <div className="timeline-content">
+                <h3> Feb 2022 - June 2022</h3>
+                <p>Full Stack Software Engineer- Moringa School </p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-content">
+                <h3> May 2013 - Dec 2017</h3>
+                <p> Bsc Economics and Statistics-University of Nairobi</p>
+              </div>
+            </div>
+      
+           <div className="request">
             
-      //      </div>
+           </div>
           
-      //     </div>
-      //   );
+          </div>
+        );
       case "projects":
         return (
             <div className="grid-gallery">
@@ -186,12 +187,12 @@ const Tabs = () => {
         >
           Tech Stack
         </button>
-        {/* <button
-          className={activeTab === "workExperience" ? "active" : ""}
-          onClick={() => setActiveTab("workExperience")}
+        <button
+          className={activeTab === "education" ? "active" : ""}
+          onClick={() => setActiveTab("education")}
         >
-          Work Experience
-        </button> */}
+          Education
+        </button>
         <button
           className={activeTab === "projects" ? "active" : ""}
           onClick={() => setActiveTab("projects")}
