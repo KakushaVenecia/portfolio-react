@@ -73,11 +73,8 @@ const Tabs = () => {
     <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
     <img src="https://img.shields.io/badge/SPSS-0033A0?style=for-the-badge&logo=ibm&logoColor=white" alt="SPSS" />
     </div>
-
       </div>
-   
   </div>
-
 </div>
         );
       case "education":
