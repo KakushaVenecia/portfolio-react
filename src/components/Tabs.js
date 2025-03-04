@@ -9,52 +9,79 @@ const Tabs = () => {
     switch (activeTab) {
       case "techStack":
         return (
-          <div className="tech-stack">
-      <img
-        src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
-        alt="CSS3"
-      />
-      <img
-        src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
-        alt="JavaScript"
-      />
-      <img
-        src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
-        alt="Bootstrap"
-      />
-      <img
-        src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
-        alt="Python"
-      />
-      <img
-        src="https://img.shields.io/badge/typescript-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=%23F7DF1E"
-        alt="TypeScript"
-      />
-      <img
-        src="https://img.shields.io/badge/angular-%23007ACC.svg?style=for-the-badge&logo=angular&logoColor=red"
-        alt="Angular"
-      />
-      <img
-        src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white"
-        alt="Django"
-      />
-      <img
-        src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray"
-        alt="Django REST"
-      />
-      <img
-        src="https://img.shields.io/badge/flask-%23092E20.svg?style=for-the-badge&logo=flask&logoColor=white"
-        alt="Flask"
-      />
-      <img
-        src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white"
-        alt="Express.js"
-      />
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '30px', textAlign: 'center' }}>
+  
+  {/* Row 1: Tech Stacks & Databases */}
+  <div style={{ display: 'flex', justifyContent: 'center', gap: '40px', flexWrap: 'wrap' }}>
+    
+    {/* Tech Stacks */}
+    <div style={{ flex: 1, minWidth: '300px' }}>
+      <p style={{ color: 'gold', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
+        Tech Stacks
+      </p>
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent:'center', alignItems: 'center', gap: '10px' }}>
+        <img src="https://img.shields.io/badge/MERN%20Stack-023430?style=for-the-badge&logo=react&logoColor=61DAFB" alt="MERN Stack" />
+        <img src="https://img.shields.io/badge/MEAN%20Stack-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="MEAN Stack" />
+      </div>
     </div>
+
+    {/* Databases */}
+    <div style={{ flex: 1, minWidth: '300px' }}>
+      <p style={{ color: 'gold', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
+        Databases
+      </p>
+      <div style={{ display: 'flex', justifyContent:'center', flexDirection: 'row', alignItems: 'center', gap: '10px' }}>
+        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+        <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      </div>
+    </div>
+
+  </div>
+
+  {/* Row 2: Programming Languages & Project Management Tools */}
+  <div style={{ display: 'flex', justifyContent: 'center', gap: '40px', flexWrap: 'wrap' }}>
+    
+    {/* Programming Languages */}
+    <div style={{ flex: 1, minWidth: '300px' }}>
+      <p style={{ color: 'gold', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
+        Programming Languages
+      </p>
+      <div style={{ display: 'flex',  justifyContent:'center',flexDirection: 'row', alignItems: 'center', gap: '10px' }}>
+        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/typescript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+      </div>
+    </div>
+
+    {/* Project Management Tools */}
+    <div style={{ flex: 1, minWidth: '300px' }}>
+      <p style={{ color: 'gold', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
+        Project Management Tools
+      </p>
+      <div style={{ display: 'flex', justifyContent:'center', flexDirection: 'row', alignItems: 'center', gap: '10px' }}>
+        <img src="https://img.shields.io/badge/Trello-0079BF?style=for-the-badge&logo=trello&logoColor=white" alt="Trello" />
+        <img src="https://img.shields.io/badge/Asana-273347?style=for-the-badge&logo=asana&logoColor=white" alt="Asana" />
+        
+      </div>
+    </div>
+      {/* Data Analysis Section */}
+      <div style={{ flex: 1, minWidth: '300px' }}>
+      <p style={{ color: 'gold', fontWeight: 800, fontSize: '1.2rem', margin: '15px 0 10px' }}>
+      Data Analysis
+    </p>
+    <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
+    <img src="https://img.shields.io/badge/SPSS-0033A0?style=for-the-badge&logo=ibm&logoColor=white" alt="SPSS" />
+    </div>
+
+      </div>
+   
+  </div>
+
+</div>
         );
       case "education":
         return (
-          
           <div className="timeline">
             <div className="timeline-item">
               <div className="timeline-content">
