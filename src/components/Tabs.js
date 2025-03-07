@@ -187,8 +187,21 @@ const Tabs = () => {
             </p>
             </div>
             <div className="grid-item">
-                <img src="./images/Water_quality.png" alt="Project 3" />
-                <p>Project 5</p>
+            <a 
+           href="https://kahua.onrender.com/"
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+           <img src="./images/kahua.png" alt="Project 5" />
+           <p className="project-title">Kahua 
+           </p>
+            </a>
+            <p className="project-description">
+                Kahua is an application showcasing a Kenyan coffee brand through story telling
+                </p>
+                <p>
+              Technologies Used: Javascript,GSAP
+            </p>
             </div>
             <div className="grid-item">
                 <img src="./images/Water_quality.png" alt="Project 3" />
