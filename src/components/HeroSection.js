@@ -26,9 +26,9 @@ As I continued pitching to businesses, engaging with early adopters, analysing f
           <p className="hero-story">
             From 2019, this spark turned into a deliberate pursuit. I took intentional steps to transition into tech—learning to code, seeking hands-on experience, and surrounding myself with people who could accelerate my growth.
             <br /><br />
-            I volunteered with a design strategist and business consultant, refining my product thinking and strategy skills. I contributed to tech startup ecosystem projects, deepened my understanding of software development, and continuously upskilled to bridge the gap between <strong>business needs and technical solutions</strong>.
+            I volunteered with a design strategist and business consultant, refining my product thinking and strategy skills. I contributed to tech startup ecosystem projects, deepened my understanding of software development, and continuously upskilled to bridge the gap between business needs and technical solutions.
             <br /><br />
-            Today, I'm a <strong> full stack developer with a product mindset</strong>—someone who understands not just the <strong>code</strong>, but also the <strong>market, user needs, and the broader impact of technology</strong>. I'm eager to be part of a forward-thinking team where I can contribute my skills, learn, and grow.
+            Today, I'm a full stack developer with a product mindset—someone who understands not just the code, but also the <strong>market, user needs, and the broader impact of technology</strong>. I'm eager to be part of a forward-thinking team where I can contribute my skills, learn, and grow.
           </p>
             {/* CTA Section */}
           <div className="hero-cta">
