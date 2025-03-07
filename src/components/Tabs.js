@@ -104,10 +104,6 @@ const Tabs = () => {
               Technologies Used: Javascript,GSAP
             </p>
             </div>
-            <div className="grid-item">
-                <img src="./images/Water_quality.png" alt="Project 3" />
-                <p>Project 6</p>
-            </div>
             
           </div>
         );
