@@ -11,21 +11,26 @@ const Tabs = () => {
         return (
             <div className="grid-gallery">
             <div className="grid-item">
-            <a 
-            href="https://frontend-d5bn.onrender.com/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            >
-            <img src="./images/Water_quality.png" alt="Project 1" />
-            <p className="project-title">Water Quality Web App</p>
-            </a>
-            <p className="project-description">
-                This is a web-based geospatial project that focuses on analysing water quality using real-time data collection and providing insights for environmental monitoring.
-            </p>
-            <p>
-              Technologies Used: React, MongoDB, Mapbox
-            </p>
-        </div>
+              <a 
+                href="https://frontend-d5bn.onrender.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <img src="./images/Water_quality.png" alt="Project 1" />
+                <p className="project-title">Water Quality Web App</p>
+              </a>
+              <p className="project-description">
+                This is a web-based geospatial project that focuses on analyzing water quality using real-time data collection and providing insights for environmental monitoring.
+              </p>
+              
+              <div className="technologies">
+                <p>Technologies Used:</p>
+                <p>React</p>
+                <p>MongoDB</p>
+                <p>Mapbox</p>
+              </div>
+            </div>
+
             <div className="grid-item">
             <a 
             href="https://kakushavenecia.github.io/ip-two/" 
@@ -78,7 +83,7 @@ const Tabs = () => {
             get information from fellow hoodmates on events,
              posts, businesses in your neighborhood.
                 </p>
-                <p>
+                <p className="technologies">
               Technologies Used: Python-Django, Postgresql
             </p>
             </div>
@@ -116,7 +121,7 @@ const Tabs = () => {
     {/* Tech Stacks */}
     <div style={{ flex: 1, minWidth: '300px' }}>
       <p style={{ color: 'gold', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
-        Tech Stacks
+        Technology and Tools
       </p>
       <div style={{ display: 'flex', flexDirection: 'row', justifyContent:'center', alignItems: 'center', gap: '10px' }}>
         <img src="https://img.shields.io/badge/MERN%20Stack-023430?style=for-the-badge&logo=react&logoColor=61DAFB" alt="MERN Stack" />

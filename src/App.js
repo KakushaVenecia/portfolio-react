@@ -11,7 +11,7 @@ function App() {
       <Header />
       <MainContent />
       
-      <footer className="footer">
+      <footer className="footer" >
       <p>&copy; {new Date().getFullYear()} Venecia Kakusha. All Rights Reserved.</p>
       </footer>
     </div>

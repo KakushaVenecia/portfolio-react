@@ -2,7 +2,7 @@
 
 /* General Form Styling */
 .contact-form {
-    width: 80%;
+    width: 60%;
     margin: 30px auto;
     padding: 20px;
     border-radius: 10px;
@@ -51,7 +51,7 @@
 /* Button Styling */
 .contact-button {
     display: inline-block;
-    width: 50%;
+    width: 40%;
     padding: 10px;
     font-size: 16px;
     font-weight: bold;
@@ -81,7 +81,9 @@
     margin-top: 10px;
 }
 
-
+.textarea{
+    min-height: 50px;
+}
 .alert {
     margin: 10px 0;
     padding: 10px;

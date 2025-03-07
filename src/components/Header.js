@@ -5,6 +5,9 @@ import './Header.css';
 function Header() {
     return (
         <div className='header'>
+            <div className='wrapper'>
+
+            
             {/* Profile Image */}
             <div className='logo'>
                 <img src="./images/logooo.png" alt="Profile" className="logo-image" />
@@ -18,6 +21,7 @@ function Header() {
                 <div className="location">
                     <FaMapMarkerAlt className="icon" /> United Kingdom
                 </div>
+            </div>
             </div>
         </div>
     );

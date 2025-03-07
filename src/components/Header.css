@@ -1,25 +1,24 @@
 /* General styles for header container */
 .header {
     position: relative;
-    margin: auto;
-    width: 95%;
+    width: 100%;
     color: white;
     margin-top: 28px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border-bottom: 1px solid #E2B564; /* Optional border for separation */
-    padding: 7px;
 }
 
-  
+.wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 70%; 
+}
 
-/* Logo section */
+
 .logo-image {
     width: 100px;  /* Profile picture size */
-    height: 100px; /* Profile picture size */
-    border-radius: 50%; /* Circular image */
-    border: 1px solid #E2B564; /* Optional border */
+    height: 100px; 
 }
 
 /* Details section */
@@ -54,10 +53,9 @@
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
-    .header {
-        flex-direction: column; /* Stack image and details vertically */
+    .wrapper {
+        flex-direction: column; /* Stack logo and details vertically on smaller screens */
         text-align: center;
-        padding: 15px;
     }
 
     .logo-image {
@@ -75,8 +73,9 @@
 }
 
 @media (max-width: 480px) {
-    .header {
-        padding: 10px; /* Reduce padding for smaller screens */
+    .wrapper {
+        flex-direction: column; /* Stack logo and details vertically */
+        text-align: center;
     }
 
     .logo-image {

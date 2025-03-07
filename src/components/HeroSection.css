@@ -1,162 +1,100 @@
-/* Hero Section Layout */
 .hero-section {
-    text-align: center;
-    padding: 2px;
-    margin:auto;/* Optional, to space it out from the top */
-    width: 95%; /* Make sure the hero section takes up full width */
-    margin-bottom: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: inherit;
+ margin-bottom: 20px;
+}
 
-  .hero-left{
-    text-align: justify!important;
-    font-size: larger;
-  }
+/* Ensures left and right sections are the same height */
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  gap: 40px;
+  text-align: justify;
+}
 
-  h6{
-    text-align: center;
-  }
-  
-  .hero-quote {
-    color: #4a2c10;
-    font-size: large;
-    text-align: justify;
-    width: 50%;
-    margin: auto;
-    padding: 20px;
-    background: url('/public/images/parchment-texture.jpg') center/cover; /* Replace with the URL of your parchment image */
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-    font-family: 'Georgia', serif;
-    line-height: 1.8;
-  }
-  
-  .quote-attribution {
-    color: #6a4f27;
-    font-style: italic;
-    margin-top: 20px;
-    text-align: right;
-  }
-  
-  
+.hero-left, .hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns content to the top */
+}
+strong{
+  color: #E2B564;
+}
+
+.hero-left h1 {
+  color: #E2B564;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero-story {
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Style for Video Embed */
+.hero-video {
+  margin-top: 20px;
+}
+
+h3{
+  color: #E2B564;
+}
+
+.hero-video h3 {
+  margin-bottom: 10px;
+}
+
+/* CTA at the bottom */
+.hero-cta {
+  text-align: center;
+  margin-top: 2px;
  
-  .section {
-    width: 90%;
-    margin: auto;
-    color: #ffffff;
-    font-weight: bold;
-    background-color: inherit;
-    display: flex;
-    flex-direction: row!important;
-    justify-content: space-between;
+}
+
+.hero-cta p{
+  color:white;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
     align-items: center;
   }
-  
-  .hero-left, .hero-right {
-    flex: 0.55 , 0.45;
-  }
-  
-  .hero-image img {
-    width: 100%;
-    height: auto;
-  }
+}
 
 
-  
-  .typing-effect {
-    display: inline-block; /* Ensures it stays in one line */
-    border-right: 2px solid #e2b564; /* Cursor effect */
-    white-space: wrap; /* Prevents text wrapping */
-    overflow: hidden; /* Hides the text that's not visible yet */
-    animation: typing 4s steps(40, end), blink 0.7s step-end infinite;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0; /* Starts with no text visible */
-    }
-    to {
-      width: 100%; /* Reveals the entire text */
-    }
-  }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent; /* Makes the cursor "blink" */
-    }
-  }
-  
-  
-  .hero-right .hero-image img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    animation: fadeInOut 10s ease-in-out;
-  }
-  
-  @keyframes fadeInOut {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
 
-  .hero-right .hire {
-    margin-top: 15px;
-  }
 
-  .hire {
-    background-color: #E2B564;
-    color: #000000;
-    border: none;
-    padding: 8px 28px;
-    font-size: 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    animation: pulsate 1.5s infinite;
-    margin-bottom: 4vh;
-  }
-  
-  @keyframes pulsate {
-    0% {
-      transform: scale(1);
-      box-shadow: 0 0 5px rgba(0, 123, 255, 0.8);
-    }
-    50% {
-      transform: scale(1.1);
-      box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
-    }
-    100% {
-      transform: scale(1);
-      box-shadow: 0 0 5px rgba(0, 123, 255, 0.8);
-    }
-  }
-  
 
-  @media (max-width: 768px) {
-    .section {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .hero-left, .hero-right {
-      flex: none;
-      width: 100%;
-      margin-bottom: 20px;
-    }
-  
-    .hero-right .hero-image img {
-      width: 80%; /* Adjust for smaller screens */
-    }
-  }
-  @media (max-width: 768px) {
-    .hero-quote {
-      width: 90%; /* Adjust width for smaller screens */
-    }
-  }
-  
+
+
+
+
