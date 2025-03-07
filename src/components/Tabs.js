@@ -3,10 +3,109 @@ import "./Tabs.css";
 
 
 const Tabs = () => {
-  const [activeTab, setActiveTab] = useState("techStack");
+  const [activeTab, setActiveTab] = useState("projects");
 
   const renderContent = () => {
     switch (activeTab) {
+      case "projects":
+        return (
+            <div className="grid-gallery">
+            <div className="grid-item">
+            <a 
+            href="https://frontend-d5bn.onrender.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+            <img src="./images/Water_quality.png" alt="Project 1" />
+            <p className="project-title">Water Quality Web App</p>
+            </a>
+            <p className="project-description">
+                This is a web-based geospatial project that focuses on analysing water quality using real-time data collection and providing insights for environmental monitoring.
+            </p>
+            <p>
+              Technologies Used: React, MongoDB, Mapbox
+            </p>
+        </div>
+            <div className="grid-item">
+            <a 
+            href="https://kakushavenecia.github.io/ip-two/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+            <img src="./images/Akan-Name.png" alt="Project 1" />
+            <p className="project-title">Akan Name</p>
+            </a>
+                <p className="project-description">
+                The Akan Name Generator is an interactive web-based tool
+                 designed to provide users with an immersive cultural experience
+                  by introducing them to the rich traditions of the Akan people of Ghana. 
+                </p>
+                <p>
+              Technologies Used: Javascript 
+            </p>
+            </div>
+            <div className="grid-item">
+            <a 
+           href=" https://bejewelled-salamander-5f7a86.netlify.app/ "
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+           <img src="./images/codehack.png" alt="Project 3" />
+           <p className="project-title">Moringa Codehack</p>
+            </a>
+            <p className="project-description">
+                MoringaCodehack is a frontend 
+                application that is part of a collaborative group project
+                 designed to create a HackerRank-type platform, where users can solve coding challenges.
+                 Worked in a team of 2 front end developers, collaborating on both frontend development.
+                </p>
+                <p>
+              Technologies Used: Angular, TypeScript
+            </p>
+            </div>
+            <div className="grid-item">
+            <a 
+           href="https://jirani-e69819ead4ec.herokuapp.com/"
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+           <img src="./images/image.png" alt="Project 4" />
+           <p className="project-title">Jirani Corner
+           </p>
+            </a>
+            <p className="project-description">
+            Jirani Corner is an application which allows you to be in the loop about everything happening in your neighborhood. Join and 
+            get information from fellow hoodmates on events,
+             posts, businesses in your neighborhood.
+                </p>
+                <p>
+              Technologies Used: Python-Django, Postgresql
+            </p>
+            </div>
+            <div className="grid-item">
+            <a 
+           href="https://kahua.onrender.com/"
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+           <img src="./images/kahua.png" alt="Project 5" />
+           <p className="project-title">Kahua 
+           </p>
+            </a>
+            <p className="project-description">
+                Kahua is an application showcasing a Kenyan coffee brand through story telling
+                </p>
+                <p>
+              Technologies Used: Javascript,GSAP
+            </p>
+            </div>
+            <div className="grid-item">
+                <img src="./images/Water_quality.png" alt="Project 3" />
+                <p>Project 6</p>
+            </div>
+            
+          </div>
+        );
       case "techStack":
         return (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '30px', textAlign: 'center' }}>
@@ -89,7 +188,7 @@ const Tabs = () => {
              <div className="timeline-item">
                 <div className="timeline-content">
                     <h3> Sept 2022 - Jan 2023</h3>
-                     <p>Intermediate Software Engineer- Stutern  </p>
+                     <p>Intermediate Software Engineer(Backend)- Stutern  </p>
                    </div>
                </div>
             <div className="timeline-item">
@@ -111,105 +210,7 @@ const Tabs = () => {
           
           </div>
         );
-      case "projects":
-        return (
-            <div className="grid-gallery">
-            <div className="grid-item">
-            <a 
-            href="https://frontend-d5bn.onrender.com/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            >
-            <img src="./images/Water_quality.png" alt="Project 1" />
-            <p className="project-title">Water Quality Web App</p>
-            </a>
-            <p className="project-description">
-                This is a web-based geospatial project that focuses on analysing water quality using real-time data collection and providing insights for environmental monitoring.
-            </p>
-            <p>
-              Technologies Used: React, MongoDB, Mapbox
-            </p>
-        </div>
-            <div className="grid-item">
-            <a 
-            href="https://kakushavenecia.github.io/ip-two/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            >
-            <img src="./images/Akan-Name.png" alt="Project 1" />
-            <p className="project-title">Akan Name</p>
-            </a>
-                <p className="project-description">
-                The Akan Name Generator is an interactive web-based tool
-                 designed to provide users with an immersive cultural experience
-                  by introducing them to the rich traditions of the Akan people of Ghana. 
-                </p>
-                <p>
-              Technologies Used: Javascript 
-            </p>
-            </div>
-            <div className="grid-item">
-            <a 
-           href=" https://bejewelled-salamander-5f7a86.netlify.app/ "
-            target="_blank" 
-            rel="noopener noreferrer"
-            >
-           <img src="./images/codehack.png" alt="Project 3" />
-           <p className="project-title">Moringa Codehack</p>
-            </a>
-            <p className="project-description">
-                MoringaCodehack is a frontend 
-                application that is part of a collaborative group project
-                 designed to create a HackerRank-type platform, where users can solve coding challenges.
-                 Worked in a team of 2 front end developers, collaborating on both frontend and backend integration.
-                </p>
-                <p>
-              Technologies Used: Angular, TypeScript
-            </p>
-            </div>
-            <div className="grid-item">
-            <a 
-           href="https://jirani-e69819ead4ec.herokuapp.com/"
-            target="_blank" 
-            rel="noopener noreferrer"
-            >
-           <img src="./images/image.png" alt="Project 4" />
-           <p className="project-title">Jirani Corner
-           </p>
-            </a>
-            <p className="project-description">
-            Jirani Corner is an application which allows you to be in the loop about everything happening in your neighborhood. Join and 
-            get information from fellow hoodmates on events,
-             posts, businesses in your neighborhood.
-                </p>
-                <p>
-              Technologies Used: Python-Django, Postgresql
-            </p>
-            </div>
-            <div className="grid-item">
-            <a 
-           href="https://kahua.onrender.com/"
-            target="_blank" 
-            rel="noopener noreferrer"
-            >
-           <img src="./images/kahua.png" alt="Project 5" />
-           <p className="project-title">Kahua 
-           </p>
-            </a>
-            <p className="project-description">
-                Kahua is an application showcasing a Kenyan coffee brand through story telling
-                </p>
-                <p>
-              Technologies Used: Javascript,GSAP
-            </p>
-            </div>
-            <div className="grid-item">
-                <img src="./images/Water_quality.png" alt="Project 3" />
-                <p>Project 6</p>
-            </div>
-            
-          </div>
-        );
+      
       default:
         return null;
     }
