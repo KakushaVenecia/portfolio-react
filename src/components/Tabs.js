@@ -116,7 +116,7 @@ const Tabs = () => {
     
     {/* Tech Stacks */}
     <div style={{ flex: 1, minWidth: '300px' }}>
-      <p style={{ color: 'gold', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
+      <p style={{ color: 'white', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
         Technology and Tools
       </p>
       <div style={{ display: 'flex', flexDirection: 'row', justifyContent:'center', alignItems: 'center', gap: '10px' }}>

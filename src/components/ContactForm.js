@@ -65,41 +65,41 @@ const ContactForm = () => {
 
   return (
     <form className="contact-form" ref={form} onSubmit={handleSubmit}>
-      <h3 className="contact">Contact Me</h3>
+      <h3 className="contact">Available For Work: Contact Me !</h3>
       {alert.message && (
         <div className={`alert ${alert.type}`}>
           {alert.message}
         </div>
       )}
       <label className="label">
-        Name:
+        Full Name
         <input
           className="Input"
           type="text"
           name="from_name"
-          placeholder="Your Name"
+          placeholder="Please input Your Name"
           value={formData.from_name}
           onChange={handleChange}
           required
         />
       </label>
       <label className="label">
-        Email:
+        Your Email:
         <input
           className="Input"
           type="email"
           name="email"
-          placeholder="Your Email"
+          placeholder="Please Input Your Email"
           value={formData.email}
           onChange={handleChange}
           required
         />
       </label>
       <label className="label">
-        Message:
+        Talk to Me:
         <textarea
           name="message"
-          placeholder="Your Message"
+          placeholder="I look forward to hearing from you!"
           value={formData.message}
           onChange={handleChange}
           required
