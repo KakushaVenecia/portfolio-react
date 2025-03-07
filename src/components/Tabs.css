@@ -149,21 +149,16 @@
     flex-grow: 1; /* Ensures description section grows and takes up remaining space */
   }
   
-  .technologies {
-    margin-top: 10px;
-    font-size: 12px;
-    color: #E2B564;
-    font-weight: bold;
-    text-align: center;
-  }
   
   .technologies p {
     margin: 0;
     display: inline-block;
-    background-color: #333333;
+    background-color:inherit;
     padding: 5px 10px;
     border-radius: 4px;
     margin-right: 5px;
+    border: 1px solid #E2B564; 
+    font-size: smaller;
   }
   
   p {

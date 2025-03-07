@@ -24,7 +24,6 @@ const Tabs = () => {
               </p>
               
               <div className="technologies">
-                <p>Technologies Used:</p>
                 <p>React</p>
                 <p>MongoDB</p>
                 <p>Mapbox</p>
@@ -45,9 +44,9 @@ const Tabs = () => {
                  designed to provide users with an immersive cultural experience
                   by introducing them to the rich traditions of the Akan people of Ghana. 
                 </p>
-                <p>
-              Technologies Used: Javascript 
-            </p>
+                <div className="technologies">
+                <p>JavaScript</p>
+              </div>
             </div>
             <div className="grid-item">
             <a 
@@ -64,9 +63,9 @@ const Tabs = () => {
                  designed to create a HackerRank-type platform, where users can solve coding challenges.
                  Worked in a team of 2 front end developers, collaborating on both frontend development.
                 </p>
-                <p>
-              Technologies Used: Angular, TypeScript
-            </p>
+                <div className="technologies">
+                <p>Angular</p>
+              </div>
             </div>
             <div className="grid-item">
             <a 
@@ -83,9 +82,11 @@ const Tabs = () => {
             get information from fellow hoodmates on events,
              posts, businesses in your neighborhood.
                 </p>
-                <p className="technologies">
-              Technologies Used: Python-Django, Postgresql
-            </p>
+                <div className="technologies">
+                <p>Python</p>
+                <p>PostgreSQL</p>
+                <p>Bootstrap</p>
+              </div>
             </div>
             <div className="grid-item">
             <a 
@@ -100,9 +101,10 @@ const Tabs = () => {
             <p className="project-description">
                 Kahua is an application showcasing a Kenyan coffee brand through story telling
                 </p>
-                <p>
-              Technologies Used: Javascript,GSAP
-            </p>
+                <div className="technologies">
+                <p>JavaScript</p>
+                <p>GSAP</p>
+              </div>
             </div>
             
           </div>
