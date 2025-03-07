@@ -127,7 +127,7 @@ const Tabs = () => {
 
     {/* Databases */}
     <div style={{ flex: 1, minWidth: '300px' }}>
-      <p style={{ color: 'gold', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
+      <p style={{ color: 'white', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
         Databases
       </p>
       <div style={{ display: 'flex', justifyContent:'center', flexDirection: 'row', alignItems: 'center', gap: '10px' }}>
@@ -144,7 +144,7 @@ const Tabs = () => {
     
     {/* Programming Languages */}
     <div style={{ flex: 1, minWidth: '300px' }}>
-      <p style={{ color: 'gold', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
+      <p style={{ color: 'white', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
         Programming Languages
       </p>
       <div style={{ display: 'flex',  justifyContent:'center',flexDirection: 'row', alignItems: 'center', gap: '10px' }}>
@@ -156,7 +156,7 @@ const Tabs = () => {
 
     {/* Project Management Tools */}
     <div style={{ flex: 1, minWidth: '300px' }}>
-      <p style={{ color: 'gold', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
+      <p style={{ color: 'white', fontWeight: 800, fontSize: '1.2rem', marginBottom: '10px' }}>
         Project Management Tools
       </p>
       <div style={{ display: 'flex', justifyContent:'center', flexDirection: 'row', alignItems: 'center', gap: '10px' }}>
@@ -167,7 +167,7 @@ const Tabs = () => {
     </div>
       {/* Data Analysis Section */}
       <div style={{ flex: 1, minWidth: '300px' }}>
-      <p style={{ color: 'gold', fontWeight: 800, fontSize: '1.2rem', margin: '15px 0 10px' }}>
+      <p style={{ color: 'white', fontWeight: 800, fontSize: '1.2rem', margin: '15px 0 10px' }}>
       Data Analysis
     </p>
     <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
